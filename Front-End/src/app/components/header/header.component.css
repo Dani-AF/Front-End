@@ -4,7 +4,6 @@
 
 .container-fluid {
     background-color: rgb(75, 56, 112);
-    max-width: 100%;
 }
 
 .row{
@@ -20,7 +19,7 @@
 .icons {
     max-width: 15%;
     height: 20px;
-    display: flex;
+    display: inline-flex;
     column-gap: 15px;
     margin-top: 20px;
    }

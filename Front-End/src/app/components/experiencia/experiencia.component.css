@@ -6,6 +6,27 @@ div{
     background-color: rgb(199, 175, 247);
 }
 
+/*EXPERIENCIA*/
+
+.bg-3{
+    background: linear-gradient(to right, rgb(180, 144, 251), rgb(199, 175, 247));
+    z-index: 2;
+    background-size: cover;
+    transition: all 0.5s ease;
+ }
+
+ h1.t-stroke{
+    padding: 10px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+}
+
+/*ITEMS*/
+
 h1, h3 {
     display: inline;
+}
+
+.col-lg-11{
+    padding: 30px;
 }
