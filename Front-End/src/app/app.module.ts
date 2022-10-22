@@ -25,13 +25,12 @@ import { LoginComponent } from './components/login/login.component'
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
-    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
