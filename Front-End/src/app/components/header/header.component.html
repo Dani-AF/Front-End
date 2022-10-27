@@ -18,7 +18,8 @@
                 <a href="https://github.com/Dani-AF" class="icon icon--github">
                     <i class="ri-github-line"></i>
                 </a>
-                <button type="button" class="btn btn-outline-light" (click)="login()">Ingresar</button>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
         </div>
         </div>
         <div class="container-portada">
