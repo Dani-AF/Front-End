@@ -13,11 +13,11 @@ import { TokenService } from 'src/app/service/token.service';
 export class LoginComponent implements OnInit {
   islogged = false;
   islogginFail = false;
-  loginUsuario = LoginUsuario;
-  nombreUsuario!: string;
-  password!: string;
+  loginUsuario : LoginUsuario;
+  nombreUsuario: string;
+  password: string;
   roles: string[] = [];
-  errMsj!: string;
+  errMsj: string;
 
 
 
