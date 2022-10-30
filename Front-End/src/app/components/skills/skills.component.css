@@ -15,3 +15,10 @@
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     font-weight: bold;
 }
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
